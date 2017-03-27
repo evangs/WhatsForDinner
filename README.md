@@ -10,4 +10,4 @@ GOOGLE_API_KEY=
 ENVIRONMENT=
 ```
 - `docker build -t wfd .`
-- `docker run -it --rm -p 80:80 --env-file secrets.env --name wfdapp wfd`
+- `docker run -it --rm -p 80:80 -e PORT=80 --env-file secrets.env --name wfdapp wfd`
