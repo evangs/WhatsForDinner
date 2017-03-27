@@ -1,6 +1,9 @@
 # WhatsForDinner
 A webapp to help decide where to eat for dinner.
 
+## View Site
+https://w4d.herokuapp.com
+
 ## How to Run
 - Install Docker(https://www.docker.com/get-docker)
 - Clone project
