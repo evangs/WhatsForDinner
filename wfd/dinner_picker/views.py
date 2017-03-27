@@ -17,7 +17,7 @@ class FindFoodView(FormView):
         gmap = googlemaps.Client(key=settings.GOOGLE_API_KEY)
         data = gmap.places_nearby((form.cleaned_data['latitude'], form.cleaned_data['longitude']), keyword=keyword, open_now=False, rank_by='distance', type='restaurant')
 
-        price_level = form.cleaned_data['price_level']
+        price_level = int(form.cleaned_data['price_level'])
         minimum_rating = float(form.cleaned_data['minimum_rating'])
 
         results = data.get('results')

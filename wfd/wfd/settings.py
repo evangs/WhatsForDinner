@@ -27,7 +27,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 if os.environ.get('ENVIRONMENT') == 'PROD':
     DEBUG = False
-    ALLOWED_HOSTS = ['w4d.co']
+    ALLOWED_HOSTS = ['w4d.herokuapp.com', 'w4d.co']
 
 
 # Application definition
