@@ -1,0 +1,2 @@
+nginx -c /etc/nginx/nginx.conf
+gunicorn --workers=4 wfd.wsgi:application

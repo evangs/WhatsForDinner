@@ -1,0 +1,29 @@
+.money {
+    color: #70a87a;
+}
+
+.gold {
+    color: #f2c80e;
+}
+
+.gray {
+    color: #d6d6d6
+}
+
+.restaurant-card {
+    color: #333;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.restaurant-card .jumbotron:hover {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
