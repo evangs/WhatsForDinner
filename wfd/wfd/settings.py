@@ -24,10 +24,10 @@ SECRET_KEY = '_r#@yy+$8h#!w*zr(gem0n-9=oo(&i$zf^$l*0f)yv^%^wiptl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+ALLOWED_HOSTS = []
 if os.environ.get('ENVIRONMENT') == 'PROD':
     DEBUG = False
-
-ALLOWED_HOSTS = ['w4d.co']
+    ALLOWED_HOSTS = ['w4d.co']
 
 
 # Application definition
